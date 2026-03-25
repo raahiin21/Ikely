@@ -1,0 +1,87 @@
+.sidebar-widget {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar-widget-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
+
+/* Top posts */
+.top-posts-list { display: flex; flex-direction: column; gap: 12px; }
+
+.top-post-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: var(--color-text);
+  transition: opacity 0.15s;
+}
+.top-post-item:hover { opacity: 0.75; }
+
+.top-post-rank {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--color-border);
+  line-height: 1;
+  min-width: 20px;
+  font-family: var(--font-serif);
+}
+
+.top-post-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 3px;
+  color: var(--color-text);
+}
+
+.top-post-meta { font-size: 0.78rem; color: var(--color-text-muted); }
+
+/* Top writers */
+.writer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--color-border-light);
+  color: var(--color-text);
+  transition: opacity 0.15s;
+}
+.writer-item:last-child { border-bottom: none; }
+.writer-item:hover { opacity: 0.75; }
+
+.writer-info { flex: 1; }
+.writer-name { display: block; font-size: 0.875rem; font-weight: 600; }
+.writer-meta { font-size: 0.75rem; color: var(--color-text-muted); }
+.writer-crown { color: #f0a500; font-size: 0.9rem; }
+
+/* Subscribe widget */
+.subscribe-widget {
+  background: var(--color-accent-subtle);
+  border-color: var(--color-accent-light);
+}
+
+.subscribe-widget-text {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+/* Trending tags */
+.trending-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag-count {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 0.68rem;
+  opacity: 0.6;
+}
