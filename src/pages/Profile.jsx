@@ -1,0 +1,1 @@
+export default function Profile() { return <div style={{ padding: '40px' }}>Profile — Phase 5</div> }

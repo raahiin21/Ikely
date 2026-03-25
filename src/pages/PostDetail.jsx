@@ -1,0 +1,1 @@
+export default function PostDetail() { return <div style={{ padding: '40px' }}>Post Detail — Phase 5</div> }

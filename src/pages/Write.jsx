@@ -1,0 +1,1 @@
+export default function Write() { return <div style={{ padding: '40px' }}>Write — Phase 5</div> }

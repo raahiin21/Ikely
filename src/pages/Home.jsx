@@ -1,0 +1,1 @@
+export default function Home() { return <div style={{ padding: '40px' }}>Home — Phase 5</div> }
